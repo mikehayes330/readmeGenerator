@@ -1,11 +1,11 @@
 
-  # readmeGenerator
+  # awesomeReadmeGenerator
 
   ## Description 
   ![version shield](https://img.shields.io/badge/Version-1.0-blue.svg)
-  ![license shield](https://img.shields.io/badge/License-mit-green.svg)
+  ![license shield](https://img.shields.io/badge/License-isc-green.svg)
   
-  This project is to make an easy task of generating a readme.md file for your project to save time for developing.
+    This is a tool to make an easy task of creating a readme.md file for your project and will enable you to spend more time on the developing side of the project.
   
   ## Table of Contents
   
@@ -19,48 +19,37 @@
   
   
   ## Installation
-  run npm i to install inquirer, fs, util.
+  
+    run npm i and install the inquirer module.
   
   ## Usage
-  run node index.js and step by step instruction will prompt you for different sections of the readme file and input said prompts in the sections they belong in.
-
+  
+    in terminal run node index.js and when prompted input data about your project and a readme file with be generator with the user input information including badges for license and for version.
+  
   ## License
   
-  For more information on the mit license - [Click Here](https://choosealicense.com/licenses/mit/)
+  The license for this project is the isc - For more information on the isc license 
+  
+  [Click Here](https://choosealicense.com/licenses/isc/)
   
   ## Testing
-  no
   
- ## Contributing
+    no
   
- pull request in github are welcome.
-
+  ## Contributing
+  
+    pull request welcome.
+  
   ## Questions
-
-  Please contact for any reason at:
-
-   [Github - Mikehayes330](https://github.com/mikehayes330)
-
-   or
-
-  Email: mikehayes330@gmail.com
-   
-
-
   
+    Please contact for any reason at:
 
+ ### [Github - Mikehayes330](https://github.com/mikehayes330)
 
-  
+  or
 
-
-
-
-
-
-
-
-
-
+ ### Email: mikehayes330@gmail.com
+ 
 
 
   

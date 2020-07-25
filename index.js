@@ -30,10 +30,7 @@ function promptUser() {
       type: "checkbox",
       message: "Please provide instructions and examples for use.",
       choices: [
-        "agpl--3.0",  
-        "gpl--3.0",
-        "gpl--license",
-        "apache--2.0",
+        "isc",  
         "mit"
       ],
       name: "license"
@@ -70,15 +67,19 @@ function promptUser() {
 }
 
 function generateMD(answers) {
+  
+  const mark = "```"
+  
+  
   return `
   # ${answers.title}
 
   ## Description 
   ![version shield](https://img.shields.io/badge/Version-${answers.version}-blue.svg)
   ![license shield](https://img.shields.io/badge/License-${answers.license}-green.svg)
-  
-  ${answers.description}
-  
+ 
+    ${answers.description}
+ 
   ## Table of Contents
   
   * [Description](#description)
@@ -91,48 +92,37 @@ function generateMD(answers) {
   
   
   ## Installation
-  ${answers.install}
+  
+    ${answers.install}
   
   ## Usage
-  ${answers.usage}
-
+  
+    ${answers.usage}
+  
   ## License
   
-  For more information on the ${answers.license} license - [Click Here](https://choosealicense.com/licenses/${answers.license}/)
+  The license for this project is the ${answers.license} - For more information on the ${answers.license} license 
+  
+  [Click Here](https://choosealicense.com/licenses/${answers.license}/)
   
   ## Testing
-  ${answers.test}
   
- ## Contributing
+    ${answers.test}
   
- ${answers.contribution}
-
+  ## Contributing
+  
+    ${answers.contribution}
+  
   ## Questions
-
+  
   Please contact for any reason at:
 
-   [Github - Mikehayes330](https://github.com/${answers.github})
+  ###[Github - ${answers.github}](https://github.com/${answers.github})
 
-   or
+  or
 
-  Email: ${answers.email}
-   
-
-
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
+  ###Email: ${answers.email}
+ 
 
 
   `;
