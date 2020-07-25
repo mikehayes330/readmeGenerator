@@ -5,7 +5,7 @@
   ![version shield](https://img.shields.io/badge/Version-1.0-blue.svg)
   ![license shield](https://img.shields.io/badge/License-isc-green.svg)
  
-  This is a solution to spending too much time creating a readme file for your project. Spend more time coding and less time worrying about your readme.
+  This project is a solution to taking too much time making a readme file. Spend more time developing and less time creating the readme. User will be prompted for sections of the readme file like description, installation instructions, licensing, testing, how to contribute to the project and how to contact you.
  
   ## Table of Contents
   
@@ -20,11 +20,11 @@
   
   ## Installation
   
-    run npm i to install proper modules that include inquirer
+    run npm install to install proper modules.  
   
   ## Usage
   
-  run node index.js and input user info when prompted and a readme file will be generated with project information.
+  run node index.js and fill out info when prompted for all the needed sections of the readme.
   
   ## License
   
@@ -38,7 +38,7 @@
   
   ## Contributing
   
-    contact via email in the Questions section or pull request on Github.
+  Pull request welcome or contact via email in the Questions section.
   
   ## Questions
   
