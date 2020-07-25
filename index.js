@@ -69,7 +69,7 @@ function generateMD(answers) {
   ![version shield](https://img.shields.io/badge/Version-${answers.version}-blue.svg)
   ![license shield](https://img.shields.io/badge/License-${answers.license}-green.svg)
  
-    ${answers.description}
+  ${answers.description}
  
   ## Table of Contents
   
@@ -88,7 +88,7 @@ function generateMD(answers) {
   
   ## Usage
   
-    ${answers.usage}
+  ${answers.usage}
   
   ## License
   
@@ -102,17 +102,17 @@ function generateMD(answers) {
   
   ## Contributing
   
-    ${answers.contribution}
+  ${answers.contribution}
   
   ## Questions
   
   Please contact for any reason at:
 
-  ###[Github - ${answers.github}](https://github.com/${answers.github})
+  ### [Github - ${answers.github}](https://github.com/${answers.github})
 
   or
 
-  ###Email: ${answers.email}
+  ### Email: ${answers.email}
  
 
 

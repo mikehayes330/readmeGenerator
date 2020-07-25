@@ -4,9 +4,9 @@
   ## Description 
   ![version shield](https://img.shields.io/badge/Version-1.0-blue.svg)
   ![license shield](https://img.shields.io/badge/License-isc-green.svg)
-  
-    This is a tool to make an easy task of creating a readme.md file for your project and will enable you to spend more time on the developing side of the project.
-  
+ 
+  This is a solution to spending too much time creating a readme file for your project. Spend more time coding and less time worrying about your readme.
+ 
   ## Table of Contents
   
   * [Description](#description)
@@ -20,11 +20,11 @@
   
   ## Installation
   
-    run npm i and install the inquirer module.
+    run npm i to install proper modules that include inquirer
   
   ## Usage
   
-    in terminal run node index.js and when prompted input data about your project and a readme file with be generator with the user input information including badges for license and for version.
+  run node index.js and input user info when prompted and a readme file will be generated with project information.
   
   ## License
   
@@ -38,17 +38,17 @@
   
   ## Contributing
   
-    pull request welcome.
+    contact via email in the Questions section or pull request on Github.
   
   ## Questions
   
-    Please contact for any reason at:
+  Please contact for any reason at:
 
- ### [Github - Mikehayes330](https://github.com/mikehayes330)
+  ### [Github - mikehayes330](https://github.com/mikehayes330)
 
   or
 
- ### Email: mikehayes330@gmail.com
+  ### Email: mikehayes330@gmail.com
  
 
 
